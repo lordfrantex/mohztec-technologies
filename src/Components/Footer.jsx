@@ -101,7 +101,7 @@ const Footer = () => {
 
             </footer>
             <div class="copyright container-fluid">
-                <p>Copyright @ 2021 Mohztec Technologies All Rights Reserved</p>
+                <p>Copyright @ 2023 Mohztec Technologies All Rights Reserved</p>
             </div>
         </div>
     )
