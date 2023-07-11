@@ -1,32 +1,150 @@
 import React from 'react'
+import '../Components/css/services.css'
 
 const FullServices = () => {
     return (
         <div>
-            <div class="service-container">
-                <div class="services-row">
-                    <div class="service">
-                        <div class="image">
-                            <i class="fa-solid fa-solar-panel"></i>
-                        </div>
-                        <div class="title">
-                            <h4>Solar Installation Services</h4>
-                        </div>
-                        <div class="container">
-                            <div class="lines">
-                                <div class="circle"></div>
+            <div class=" container">
+                <div class=" row g-4">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div class="service ">
+                            <div class="image">
+                                <i class="fa-solid fa-solar-panel"></i>
+                            </div>
+                            <div class="title">
+                                <h4>Solar Installation Services</h4>
+                            </div>
+                            <div class="container">
+                                <div class="lines">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed ut numquam magnam vel nemo
+                                    itaque animi nesciunt unde dolorem velit inventore, cupiditate modi a beatae alias perferendis?
+                                    Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
+                                    repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
                             </div>
                         </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div class="service">
+                            <div class="image">
+                                <i class="fa-solid fa-solar-panel"></i>
+                            </div>
+                            <div class="title">
+                                <h4>Solar Installation Services</h4>
+                            </div>
+                            <div class="container">
+                                <div class="lines">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
 
 
-                        <div class="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed ut numquam magnam vel nemo
-                                itaque animi nesciunt unde dolorem velit inventore, cupiditate modi a beatae alias perferendis?
-                                Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
-                                repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed ut numquam magnam vel nemo
+                                    itaque animi nesciunt unde dolorem velit inventore, cupiditate modi a beatae alias perferendis?
+                                    Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
+                                    repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="service">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div class="service">
+                            <div class="image">
+                                <i class="fa-solid fa-solar-panel"></i>
+                            </div>
+                            <div class="title">
+                                <h4>Solar Installation Services</h4>
+                            </div>
+                            <div class="container">
+                                <div class="lines">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed ut numquam magnam vel nemo
+                                    itaque animi nesciunt unde dolorem velit inventore, cupiditate modi a beatae alias perferendis?
+                                    Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
+                                    repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div class="service">
+                            <div class="image">
+                                <i class="fa-solid fa-solar-panel"></i>
+                            </div>
+                            <div class="title">
+                                <h4>Solar Installation Services</h4>
+                            </div>
+                            <div class="container">
+                                <div class="lines">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed ut numquam magnam vel nemo
+                                    itaque animi nesciunt unde dolorem velit inventore, cupiditate modi a beatae alias perferendis?
+                                    Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
+                                    repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div class="service">
+                            <div class="image">
+                                <i class="fa-solid fa-solar-panel"></i>
+                            </div>
+                            <div class="title">
+                                <h4>Solar Installation Services</h4>
+                            </div>
+                            <div class="container">
+                                <div class="lines">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed ut numquam magnam vel nemo
+                                    itaque animi nesciunt unde dolorem velit inventore, cupiditate modi a beatae alias perferendis?
+                                    Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
+                                    repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div class="service">
+                            <div class="image">
+                                <i class="fa-solid fa-solar-panel"></i>
+                            </div>
+                            <div class="title">
+                                <h4>Solar Installation Services</h4>
+                            </div>
+                            <div class="container">
+                                <div class="lines">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed ut numquam magnam vel nemo
+                                    itaque animi nesciunt unde dolorem velit inventore, cupiditate modi a beatae alias perferendis?
+                                    Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
+                                    repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <div class="service">
                         <div class="image">
                             <i class="fa-solid fa-bolt"></i>
                         </div>
@@ -46,7 +164,7 @@ const FullServices = () => {
                                 Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
                                 repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
                         </div>
-                    </div>
+                    </div> 
                     <div class="service">
                         <div class="image">
                             <i class="fa-solid fa-credit-card"></i>
@@ -67,10 +185,13 @@ const FullServices = () => {
                                 Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
                                 repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
-            <div class="service-container">
+
+
+
+            {/* <div class="service-container">
                 <div class="services-row">
                     <div class="service">
                         <div class="image">
@@ -93,7 +214,7 @@ const FullServices = () => {
                                 repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
                         </div>
                     </div>
-                    <div class="service">
+                     <div class="service">
                         <div class="image">
                             <i class="fa-solid fa-plug-circle-check"></i>
                         </div>
@@ -113,8 +234,8 @@ const FullServices = () => {
                                 Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
                                 repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
                         </div>
-                    </div>
-                    <div class="service">
+                    </div> 
+                     <div class="service">
                         <div class="image">
                             <i class="fa-solid fa-screwdriver-wrench"></i>
                         </div>
@@ -134,9 +255,9 @@ const FullServices = () => {
                                 Nostrum laudantium eligendi incidunt ducimus, similique earum dolores vero blanditiis facere
                                 repudiandae repellendus soluta doloremque ex, expedita nobis beatae voluptate ipsum ut?</p>
                         </div>
-                    </div>
+                    </div> 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -12,11 +12,11 @@ const SpecificProject = () => {
 
     return (<div>
         <Header />
-        <div className='specific-project-title'>{title}</div>
-        <div className="specific-project-navigate-back">
-            <Link to='/project'><i class="fa-solid fa-arrow-left-long"></i> back to Projects</Link>
+        <div className="container">
+            <div className='specific-project-title'>{title}</div>
+
         </div>
-        <div className="specific-project-row">
+        <div className="specific-project-row container">
             <div className="specific-project-texts">
                 <h3>{list1}</h3>
                 <p className='specific-product-description'>{description}</p>
@@ -32,7 +32,7 @@ const SpecificProject = () => {
             </div>
 
         </div>
-        <div className="specific-project-row">
+        <div className="specific-project-row container">
             <div className="specific-project-texts">
                 <h3>{list4}</h3>
                 <p className='specific-product-description'>{description}</p>
@@ -53,7 +53,7 @@ const SpecificProject = () => {
                 <p className='take-view'>Take a view of our photo gallary</p>
                 <p className='our-project'>View more of our <span>{title}</span></p>
             </div>
-            <div className="additional-specific-products">
+            <div className="additional-specific-products container">
                 <div className="additional-image"> <img src={image} alt="" /></div>
                 <div className="additional-image"> <img src={image} alt="" /></div>
                 <div className="additional-image"> <img src={image} alt="" /></div>

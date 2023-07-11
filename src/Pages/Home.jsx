@@ -14,8 +14,8 @@ const Index = () => {
             <Header />
             <ScrollBar />
             <Display />
-            <HomeProduct />
             <PartServices />
+            <HomeProduct />
             <ShowBar />
             <Testimonial />
             <Footer />

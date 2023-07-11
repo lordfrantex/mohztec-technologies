@@ -66,18 +66,19 @@ const HomeProduct = () => {
         )
     })
     return (
-        <div>
-            <div class="product">
-                <a href="#">Our Products</a>
+        <div className='container-xxl'>
+            <div class="product  col-md-5  ">
+                <h3 className='bg-primary rounded-pill p-3'>Our Products</h3>
                 <h4>Quality Solar Power Products that provides <span>Lasting Solution for steady Electricity</span></h4>
-                <h6>HOTTEST DEALS OF THE DAY!!!!</h6>
+                <h5 className='display-5  '>Get our products at affordable prices.</h5>
             </div>
             <div className="cart-wrapper">
                 {renderData}
             </div>
-            <div class="product-button">
-                <Link to="/product">View All Products</Link>
-            </div></div>
+            <div class="text-center py-3">
+                <button className='bg-dark btn p-3 rounded '><Link to='/product'> <span className='text-light' > View All Products</span></Link> </button>
+            </div>
+        </div >
     )
 }
 

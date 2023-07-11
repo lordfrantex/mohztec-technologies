@@ -15,7 +15,7 @@ const Contact = () => {
         // console.log(formData);
     }
     return (
-        <div className='main-form'>
+        <div className='main-form container-xxl'>
 
             <form action='' className="contact_container" onSubmit={(e) => handleSubmit(e)}>
                 <div className="contact_form">

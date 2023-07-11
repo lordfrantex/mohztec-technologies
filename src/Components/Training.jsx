@@ -44,7 +44,7 @@ const Training = () => {
             <div className="blog-header training-header">
 
                 <div className="" style={{ textAlign: 'center' }}>
-                    <h3>Welcome to our Training Center 😃</h3>
+                    <h3>Welcome to our Training Center.</h3>
                     <p>Get our courses and be certified by</p>
                     <p style={{ marginLeft: '10px', fontSize: '40px', textAlign: 'center', }}>MOHZTEC TECHNOLOGIES</p>
                 </div>
@@ -81,7 +81,7 @@ const Training = () => {
                     {course}
                 </div>
             </div>
-            <div className='blog-swiper student-testimony'>
+            <div className='blog-swiper student-testimony container'>
                 <h4 className='upcoming-title'>Students Testimonials</h4>
                 <Swiper
                     effect={"coverflow"}
@@ -140,7 +140,51 @@ const Training = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div class="our-team">
+            <div class="container my-4">
+                <h2 className='text-center'>Meet Our Instructors</h2>
+                <div class="row justify-content-center  g-5">
+                    <div className="col-12 col-md-4 col-lg-3">
+                        <div class="team-card ">
+                            <div class="team-card-image">
+                                <img src="/novelPics/moses.jpg" alt="" />
+                            </div>
+                            <p>Name: Moses Okocha</p>
+                            <p class="title">Team Leader / C.E.O</p>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4 col-lg-3">
+
+                        <div class="team-card">
+                            <div class="team-card-image">
+                                <img src="/novelPics/man1.jpg" alt="" />
+                            </div>
+                            <p>Name: Moses Okocha</p>
+                            <p class="title">Team Leader / C.E.O</p>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4 col-lg-3">
+
+                        <div class="team-card">
+                            <div class="team-card-image">
+                                <img src="/novelPics/man2.jpg" alt="" />
+                            </div>
+                            <p>Name: Moses Okocha</p>
+                            <p class="title">Team Leader / C.E.O</p>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4 col-lg-3">
+
+                        <div class="team-card">
+                            <div class="team-card-image">
+                                <img src="/novelPics/man2.jpg" alt="" />
+                            </div>
+                            <p>Name: Moses Okocha</p>
+                            <p class="title">Team Leader / C.E.O</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <div class="our-team">
                 <h2>Our Instructors</h2>
 
                 <div class="team">
@@ -173,7 +217,7 @@ const Training = () => {
                         <p class="title">Team Leader / C.E.O</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </div>
     )

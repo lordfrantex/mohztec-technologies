@@ -1,0 +1,591 @@
+// HEADER STYLE //
+
+
+
+
+$brand-color: rgb(7, 4, 104);
+$complementing-color: rgb(241, 209, 74);
+
+
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 1.5em;
+    width: 100%;
+    height: 100%;
+}
+
+.swipe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.2rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+.swiper-slide h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+nav.navbar {
+
+    margin: auto;
+    transition: .3s ease-in-out;
+    background: rgb(39, 40, 51) !important;
+
+}
+
+.navBg {
+    background-color: black !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    right: 0;
+}
+
+.header-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: white;
+
+    img {
+        width: 100%;
+    }
+}
+
+ul.navbar-nav li {
+    margin: 0 14px;
+    position: relative;
+
+    a {
+        font-size: 19px;
+        font-weight: 600;
+        color: white !important;
+
+    }
+
+    &::after {
+        content: '';
+        height: 3px;
+        background-color: $complementing-color;
+        width: 0;
+        transition: .3s ease-in-out;
+        margin: auto;
+        border-radius: 15px;
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
+
+.navbar-nav {
+    .dropdown-menu {
+        width: 300px;
+        left: -20%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 4px !important;
+
+        li {
+            margin: 4px;
+            padding: 10px;
+            background-color: rgb(18, 21, 49);
+            transition: .4s ease-in;
+
+            &:first-child {
+
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+
+            &:last-child {
+
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+
+            a {
+                color: white;
+            }
+
+            &:hover {
+
+
+                a {
+                    color: rgb(39, 40, 51) !important;
+                }
+
+                background-color: white;
+            }
+
+            &::after {
+                display: none;
+            }
+
+
+        }
+    }
+}
+
+
+// HERO SECTION DISPLAY SWIPER CODE //
+.display-container {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(15, 1, 1, 0.753), rgba(6, 6, 7, 0.952)), url("/public/novelPics/solar2.jpg");
+
+}
+
+// Home about section
+.about-container {
+    background-image: url(/public/novelPics/ceo-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-image {
+    border-radius: 50%;
+    border: 10px solid $complementing-color;
+
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+
+@media(max-width:800px) {
+    .about-image {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+// TESTIMONIAL CAROUSEL SLIDER STYLING
+
+
+.customer-testimonial {
+    background-image: url(/public/novelPics/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonial-swiper-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    flex: 1;
+}
+
+.testimonial-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testimonial-swiper-content {
+    flex: 5;
+    margin-left: 10px;
+
+}
+
+.testimonial-swiper-content .name {
+    text-align: center;
+}
+
+.testimonial-swiper-content .name h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(61, 51, 51);
+}
+
+.testimonial-swiper-content .name h4 {
+    font-size: 17px;
+}
+
+i.fa-quote-left {
+    font-size: 40px;
+    color: rgb(52, 52, 61);
+}
+
+
+
+.testimonial-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.testimonial-title h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(59, 55, 59);
+}
+
+
+
+/* title.css styling */
+
+.title-header {
+    background-image: linear-gradient(rgba(15, 1, 1, 0.644), rgba(6, 6, 7, 0.690)), url('/public/novelPics/solar3.jpg');
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    top: 0;
+    z-index: 1000;
+
+    h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        margin-bottom: 12px;
+    }
+
+    .title-header-nav {
+        width: 250px;
+        font-size: 1.2em;
+        font-weight: bolder;
+        text-align: center;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        border-radius: 1.5px;
+
+        i {
+            margin: 0 9px;
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+        }
+    }
+
+}
+
+// Testimonial swiper change color to white
+.swiper-button-next,
+.swiper-button-prev {
+    color: $complementing-color !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: $complementing-color !important;
+}
+
+@keyframes linear-transit {
+    from {
+        top: 50%;
+    }
+
+    to {
+        top: 25%;
+    }
+}
+
+.home-achievements {
+    span {
+        padding: 15px 25px;
+        background-color: $complementing-color;
+        color: white;
+        font-size: 19px;
+        font-weight: 800;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+}
+
+.home-about-image {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .side-image {
+        position: absolute;
+        animation: linear-transit 5s linear infinite alternate;
+        left: 0;
+        width: 200px;
+        height: 200px;
+        transform: translate(-30%, -50%);
+        border: 9px solid white;
+    }
+}
+
+.meet-ceo {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        background-image: url("/public/novelPics/vector-1.png");
+        height: 105px;
+        width: 105px;
+        right: 53px;
+        rotate: 180deg;
+        top: 0%;
+        background-size: cover;
+        animation: rotateIt 10s linear infinite;
+    }
+}
+
+.parent-experience {
+    position: relative;
+
+    .experience {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translateY(-81%);
+        border: 9px solid $complementing-color;
+        width: 250px;
+        // animation: linear-transit 5s linear infinite alternate;
+
+    }
+
+}
+
+
+.avater {
+
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
+
+.services {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 15px;
+    // background: linear-gradient(180deg, #0e1d22 -14.66%, #515458 100%);
+
+    &::after {
+        content: '';
+        z-index: -10;
+        width: 100%;
+        // background: linear-gradient(blue 60%, red 50%, );
+        // background-color: rgba(158, 206, 182, 0.644);
+        background: linear-gradient(90deg, $brand-color 4.563%, rgb(14, 8, 36) 100%);
+
+        height: 100%;
+        transition: .3s ease-in-out;
+        left: 0;
+        right: 0;
+        top: 100%;
+        bottom: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    &:hover::after {
+        top: 0;
+
+    }
+
+
+    .thumbnail {
+
+        .thumbnail-image {
+            width: 50px;
+            display: block;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+
+    .service-details {
+        padding: 12px;
+
+        h4 {
+            text-align: left !important;
+        }
+
+        span {
+            color: black;
+
+            span.round {
+                background-color: $complementing-color;
+                padding: 0px 5px;
+                width: 25px;
+                height: 25px;
+                display: flex;
+                justify-content: center;
+
+                display: inline-block;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &:hover {
+        .thumbnail {
+            color: $complementing-color !important;
+        }
+    }
+
+    &:hover .service-details,
+    .service-details a {
+        color: white !important;
+
+    }
+
+    &:hover span {
+        color: white;
+    }
+}
+
+.credible-points span.round {
+    background-color: $complementing-color;
+    padding: 0px 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+
+    display: inline-block;
+    border-radius: 50%;
+}
+
+// Show bar styling
+.show-bar-container {
+    background-color: $brand-color;
+}
+
+.credible-points {
+    &span.round {
+        background-color: $complementing-color;
+        display: none;
+        padding: 12px 25px;
+        font-size: 19px;
+        color: white !important;
+        font-weight: 800;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+}
+
+.home-phone-complement-color {
+    color: $complementing-color;
+}
+
+.unit {
+    text-align: center;
+    color: $complementing-color !important;
+}
+
+.unit p.icon {
+    color: white !important;
+    border-radius: 50%;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+
+// 
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: $brand-color !important;
+    color: white !important;
+}
+
+.nav-pills .nav-link {
+    justify-content: center;
+    color: black;
+}
+
+.home-training-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    @keyframes round-circle {
+        from {
+            rotate: 0deg;
+        }
+
+        to {
+            rotate: 360deg;
+        }
+    }
+
+    &::after {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        width: 250px;
+        top: 5%;
+        transform: translateX(50%);
+        right: 0;
+        background-image: url(/public/novelPics/vector-2.png);
+        background-size: contain;
+        filter: opacity(0.9) drop-shadow(10px -15px $complementing-color);
+        height: 250px;
+        transform-origin: 100% 50%;
+        animation-direction: normal;
+        animation: round-circle 10s linear infinite;
+
+    }
+
+
+    &::before {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        width: 250px;
+        top: 0;
+        transform: translateX(-50%);
+        left: 50%;
+        background-image: url(/public/novelPics/vector-grid.jpg);
+        background-size: contain;
+        // filter: opacity(0.9) drop-shadow(22px 22px 0 $complementing-color);
+        height: 250px;
+        mix-blend-mode: multiply;
+        transform-origin: 0% 50%;
+        animation-direction: normal;
+        animation: round-circle 10s linear infinite;
+
+    }
+}

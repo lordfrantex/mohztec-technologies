@@ -1,4 +1,5 @@
-import '../Styles/blog.css'
+import '../Components/css/blog.css'
+
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -111,13 +112,15 @@ const Blog = () => {
     const blogs = (
         data.map(({ img, title, description, id, postedAt, author }, index) => {
             return (
-                <div className="blog-card">
-                    <img src={img} alt="" />
-                    <h4><strong>{title}</strong></h4>
-                    <strong className='posted-at'>{postedAt}</strong><strong className='author'>By {author}</strong>
-                    <p>{description}</p>
-                    <NavLink to={`/blog/${id}`}> <button>Read More</button></NavLink>
-                    {/* <span>Comment</span> */}
+                <div className="blog-card col-12 col-md-6 col-lg-4">
+                    <div className="border rounded-5 ">
+                        <img src={img} alt="" />
+                        <h4><strong>{title}</strong></h4>
+                        <strong className='posted-at'>{postedAt}</strong><strong className='author'>By {author}</strong>
+                        <p>{description}</p>
+                        <NavLink to={`/blog/${id}`}> <button>Read More</button></NavLink>
+                        {/* <span>Comment</span> */}
+                    </div>
                 </div>
             )
         })
@@ -127,7 +130,7 @@ const Blog = () => {
         <div>
 
             <Header />
-            <div className="blog-header">
+            <div className="blog-header mb-5 container-xxl">
                 <div className="">
                     <h3>Welcome to our
                         <span style={{ marginLeft: '10px' }}>
@@ -144,7 +147,7 @@ const Blog = () => {
                     <p>Feed your mind with tech information...</p>
                 </div>
             </div>
-            <div className="blog-filter">
+            {/* <div className="blog-filter">
                 <div className="blog-search">
                     <input type="text" placeholder='Search for blogs' />
                     <i className="fa-solid fa-search"></i>
@@ -157,14 +160,16 @@ const Blog = () => {
                     <option value="">Electrical</option>
                     <option value="">IoT/ Home automation</option>
                 </select>
+            </div> */}
+
+            <div className="blog-posts container p-3">
+                <div className="row g-4">
+                    {blogs}
+                </div>
+
             </div>
 
-            <div className="blog-posts">
-                {blogs}
-
-            </div>
-
-            <div className='blog-swiper'>
+            {/* <div className='blog-swiper'>
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -214,9 +219,9 @@ const Blog = () => {
                         <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
                     </SwiperSlide>
                 </Swiper>
-            </div>
+            </div> */}
 
-            <div className="technology">
+            <div className="technology my-5">
 
                 <Swiper
                     effect={"flip"}

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Title = (props) => {
     return (
-        <div class="header">
+        <div class="title-header">
             <h1>{props.title}</h1>
-            <div class="header-nav">
+            <div class="title-header-nav">
                 <a href="#">Home</a>
                 <i class="fa-solid fa-arrow-right"></i>
                 <span>{props.title}</span>
